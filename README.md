@@ -1,7 +1,7 @@
 # Open Visual Performance Protocol (OVPP)
 
 <p>
-  <img src="assets/ovpp-cover.png" alt="Abstract workplace visual performance cover image" width="100%">
+  <img src="assets/ovpp-cover-title.png" alt="The Open Visual Performance Protocol (OVPP) cover image" width="100%">
 </p>
 
 **OVPP is an open, practical protocol for reducing visual friction in screen-intensive work.**
