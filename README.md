@@ -1,20 +1,80 @@
 # Open Visual Performance Protocol (OVPP)
 
-This repository contains the open, operational protocol for visual ergonomics and screen-work performance, in:
+<p>
+  <img src="assets/ovpp-cover.png" alt="Abstract workplace visual performance cover image" width="100%">
+</p>
 
-- English: `OPEN-VISUAL-PERFORMANCE-PROTOCOL.md`
-- Português (PT-BR): `OPEN-VISUAL-PERFORMANCE-PROTOCOL-PT.md`
+**OVPP is an open, practical protocol for reducing visual friction in screen-intensive work.**
 
-OVPP is intentionally practical, conservative, and privacy-first for workplace adoption.
+It helps organizations measure visual load, improve work environments, design visual pauses, create a safe referral pathway, and decide whether to scale by evidence instead of intuition.
+
+This protocol is intentionally conservative: it does not replace eye care, does not authorize managers to diagnose employees, and does not expose individual medical information in routine reporting.
+
+## Protocols
+
+- English: [Open Visual Performance Protocol](protocols/open-visual-performance-protocol.md)
+- Portugues (PT-BR): [Protocolo Aberto de Desempenho Visual](protocols/protocolo-aberto-desempenho-visual.md)
+- Web landing page: [GitHub Pages](https://sudo-psc.github.io/open-visual-performance-protocol/)
+
+## What OVPP Is For
+
+OVPP is designed for organizations that want to:
+
+- treat visual load as an operational variable,
+- reduce preventable visual friction with low-risk interventions,
+- protect privacy and employee trust,
+- separate workplace screening from clinical diagnosis,
+- run a 90-day pilot before scaling,
+- use evidence bands instead of inflated ROI claims.
+
+## Operating Sequence
+
+The protocol follows one fixed sequence:
+
+1. Anonymous screening baseline
+2. Role-level visual load mapping
+3. Environment standardization
+4. Designed visual pauses
+5. Selective referral pathway
+6. Re-measurement and governance review
+
+The sequence matters. Universal, low-risk layers come before individual clinical pathways.
+
+## Non-Negotiables
+
+- Measure patterns, not people.
+- Use aggregated reporting.
+- Keep participation voluntary.
+- Use one validated screening instrument during a cycle.
+- Keep referral handling separate from performance records.
+- Avoid deterministic ROI claims.
+- Localize clinical thresholds to local law and licensed care.
+
+## Repo Structure
+
+```text
+.
+|-- README.md
+|-- LICENSE
+|-- index.html
+|-- assets/
+|   |-- ovpp-cover.png
+|   `-- site.css
+`-- protocols/
+    |-- README.md
+    |-- open-visual-performance-protocol.md
+    `-- protocolo-aberto-desempenho-visual.md
+```
 
 ## License
 
-Use and adapt under the same terms as the repository default.
+The protocol text, website copy, and repository assets are licensed under the [Creative Commons Attribution 4.0 International License](LICENSE), unless otherwise noted.
 
-## Notes
+You may share and adapt the protocol with attribution.
 
-This repo is meant to be lightweight and reusable:
+## Suggested Citation
 
-- copy and adapt the protocol to your local context,
-- keep the operational sequence and ethics non-negotiable,
-- localize thresholds to legal and clinical requirements.
+```text
+Open Visual Performance Protocol (OVPP). Sudo-psc/open-visual-performance-protocol.
+https://github.com/Sudo-psc/open-visual-performance-protocol
+```
