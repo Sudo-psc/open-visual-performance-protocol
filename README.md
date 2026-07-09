@@ -17,7 +17,8 @@ This protocol is intentionally conservative: it does not replace eye care, does 
 - English: [Open Visual Performance Protocol](protocols/open-visual-performance-protocol.md)
 - Portugues (PT-BR): [Protocolo Aberto de Desempenho Visual](protocols/protocolo-aberto-desempenho-visual.md)
 - Product companion evaluation: [Scorecard and strategy](PRODUCT-COMPANION-EVALUATION.md)
-- Web landing page: [GitHub Pages](https://sudo-psc.github.io/open-visual-performance-protocol/)
+- Web landing page (EN): [GitHub Pages](https://sudo-psc.github.io/open-visual-performance-protocol/)
+- Web landing page (PT-BR): [Página em português](https://sudo-psc.github.io/open-visual-performance-protocol/pt-br.html)
 
 ## Product Role
 
@@ -37,7 +38,7 @@ Organizations use OVPP when they want to:
 - treat visual load as an operational variable,
 - reduce preventable visual friction with low-risk interventions,
 - protect privacy and employee trust,
-- separate workplace screening from clínical diagnosis,
+- separate workplace screening from clinical diagnosis,
 - run a 90-day pilot before scaling,
 - use evidence bands instead of inflated ROI claims.
 
@@ -52,7 +53,7 @@ The protocol follows one fixed sequence:
 5. Selective referral pathway
 6. Re-measurement and governance review
 
-The sequence matters. Universal, low-risk layers come before individual clínical pathways.
+The sequence matters. Universal, low-risk layers come before individual clinical pathways.
 
 ## Companion Product Score
 
@@ -67,7 +68,7 @@ That score means the repo now has:
 - privacy and non-use promises,
 - day-90 decision gates,
 - conservative ROI logic,
-- product ladder for open protocol, pilot, dashboard and clínical partnership.
+- product ladder for open protocol, pilot, dashboard and clinical partnership.
 
 ## Non-Negotiables
 
@@ -77,7 +78,7 @@ That score means the repo now has:
 - Use one validated screening instrument during a cycle.
 - Keep referral handling separate from performance records.
 - Avoid deterministic ROI claims.
-- Localize clínical thresholds to local law and licensed care.
+- Localize clinical thresholds to local law and licensed care.
 
 ## Repo Structure
 
@@ -86,6 +87,7 @@ That score means the repo now has:
 |-- README.md
 |-- LICENSE
 |-- index.html
+|-- pt-br.html
 |-- PRODUCT-COMPANION-EVALUATION.md
 |-- assets/
 |   |-- ovpp-cover.png

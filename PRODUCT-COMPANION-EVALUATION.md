@@ -15,10 +15,10 @@ OVPP creates action: it gives organizations a privacy-first way to run a bounded
 | Dimension | Assessment |
 |---|---|
 | Strategic complement | The book is the thesis and demand generator; OVPP is the operating protocol. |
-| Buyer clarity | Strong fit for HR, People Ops, occupational health, operations, CFO and clínical partners. |
+| Buyer clarity | Strong fit for HR, People Ops, occupational health, operations, CFO and clinical partners. |
 | Adoption path | Best as a 90-day pilot in one high-screen cohort, not as a broad wellness campaign. |
 | Trust posture | Open protocol, conservative economics and privacy boundaries reduce skepticism. |
-| Commercial surface | Supports advisory, pilot implementation, executive review kits, clínical partnerships and software reminders without locking the core protocol. |
+| Commercial surface | Supports advisory, pilot implementation, executive review kits, clinical partnerships and software reminders without locking the core protocol. |
 | Differentiation | Moves beyond generic ergonomics by combining visual performance, presenteeism, governance, referral and ROI discipline. |
 
 ## Initial score before revision
@@ -78,7 +78,7 @@ This does not mean the protocol is scientifically final or legally universal. It
 | Risk | Control |
 |---|---|
 | Companies use the protocol to monitor individuals | Aggregate-only reporting, participant promise, non-use rule for performance evaluation |
-| The protocol is mistaken for médical diagnosis | Repeated clínical boundary and referral criteria |
+| The protocol is mistaken for médical diagnosis | Repeated clinical boundary and referral criteria |
 | ROI claims become exaggerated | Scenario bands, explicit assumptions and sensitivity logic |
 | The book and OVPP feel disconnected | Companion positioning in protocol, README and landing page |
 | The pilot becomes a one-time campaign | Defined governance rhythms, day-90 decision and annual loop |
