@@ -1,166 +1,230 @@
 # The Open Visual Performance Protocol (OVPP)
 
-**Version 1.1 — operational release.**
-A practical, open protocol organizations can adopt to reduce visual friction in screen-intensive work while protecting privacy and preserving employee trust.
+**Version 2.0 - companion product release.**
 
-> Designed to be **implemented, not sold.** Use your own data, your own staffing model, and your own clinical partners.
+An open operating protocol that converts the argument of *O Custo Invisivel do Olho Seco* into a privacy-first, measurable, 90-day workplace pilot for screen-intensive teams.
+
+> The book makes the invisible cost visible. OVPP turns that insight into an operating system for action.
+
+## 0) Product role
+
+OVPP is the open implementation layer that sits beside the book.
+
+| The book | OVPP |
+|---|---|
+| Explains why dry eye and digital visual fatigue matter for productivity | Defines how an organization can measure and act without becoming a clinic |
+| Builds the executive case around presenteeism, rework, visual instability and screen load | Converts the case into phases, roles, indicators, checklists and decision gates |
+| Persuades leaders to approve measurement | Gives teams a practical way to run the first 90-day pilot |
+| Warns against overclaiming ROI | Requires scenario bands, explicit assumptions and re-measurement before scale |
+
+OVPP is not a replacement for the book. It is the book's operational companion: a reusable protocol that readers, companies, clinicians and People teams can adopt after they accept the core thesis.
 
 ## 1) What this protocol is for
 
 OVPP is for organizations that want to:
 
-- measure visual load as an operational variable,
+- treat visual load as an operational variable,
 - reduce preventable visual friction with low-risk interventions,
+- convert scattered symptoms into aggregated indicators,
+- protect privacy and employee trust,
 - define a safe referral path for people who need clinical care,
-- and decide whether to scale by evidence rather than intuition.
+- test the business case with local evidence before scaling.
 
-This protocol explicitly **does not** replace eye-care practice and does not produce diagnosis by managers.
+This protocol does **not** replace eye-care practice, does **not** diagnose employees, and does **not** allow managers to access individual medical information.
 
-## 2) Principles (non-negotiable)
+## 2) Target users and buying context
 
-1. **Measure patterns, not people.** All routine analytics are aggregated by team/role and never expose individual medical information.
-2. **Cheap universal layers first, clinical pathways last.** Improve environments, schedules and behavior before referrals.
-3. **Fixed instrument over time.** Keep one validated screening tool across baseline, midline and re-measurement.
-4. **Conservative by default.** Use explicit assumptions, scenario bands, and avoid over-claiming gains.
-5. **Voluntary participation + opt-out safety.** Participation is not a performance requirement.
-6. **Visible work only.** Build this as part of operating rhythm, not a one-off campaign.
+Primary users:
 
-## 3) Program operating model
+- People/HR leaders who need a safe workplace program,
+- occupational health teams who need a structured flow,
+- operations leaders managing high-screen teams,
+- CFOs who need a conservative ROI model,
+- facilities and IT teams responsible for work environment and tooling,
+- ophthalmologists or clinics supporting referred cases.
 
-### 3.1 Roles and boundaries
+Best first-fit teams:
 
-- **Program owner (People/People Operations):** owns timeline, communication, adoption.
-- **Data steward:** maintains aggregated reporting and retention controls.
-- **Facilities/IT:** executes environment and tool configuration changes.
-- **Health and safety/occupational team:** receives escalations and manages the referral path.
-- **Licensed ophthalmologist/clinic:** performs diagnosis and treatment for clinically indicated cases.
+- software engineering and code review,
+- QA and data validation,
+- support or customer success with heavy video/chat load,
+- finance, legal, compliance and analysis roles,
+- design, content and research teams,
+- any hybrid team with long screen exposure and inconsistent workstation quality.
 
-Boundary rule: managers and HR run screening and interventions at Layers 0–3 only; clinicians handle Layer 4+.
+The ideal first sale or first adoption is not "company-wide wellness". It is a bounded pilot in one high-exposure group with a named owner, fixed metrics and a scale decision at day 90.
 
-### 3.2 Layered workflow
+## 3) Non-negotiable principles
 
-1. **Layer 0 — Anonymous screening baseline**
-2. **Layer 1 — Risk map and load prioritization**
-3. **Layer 2 — Environment standardization**
-4. **Layer 3 — Designed visual pauses and rhythm redesign**
-5. **Layer 4 — Selective referral pathway**
-6. **Layer 5 — Re-measurement and governance review**
+1. **Measure patterns, not people.** Routine analytics are aggregated by team, role or exposure group.
+2. **Book thesis, protocol discipline.** The book creates urgency; the protocol forces measured execution.
+3. **Universal low-risk layers first.** Environment, workflow and pause design come before clinical referral.
+4. **One instrument per cycle.** Keep the same validated screening tool across baseline and re-measurement.
+5. **No diagnosis by non-clinicians.** Managers, HR and dashboards classify operational risk, not disease.
+6. **Voluntary participation.** Participation is not a performance requirement.
+7. **Conservative economics.** Use scenario bands, explicit assumptions and no deterministic ROI claims.
+8. **Visible governance.** Every pilot has a sponsor, owner, data steward, clinical boundary and exit decision.
 
-**Invariant sequence:** baseline → environmental remediation → scheduled micro-pauses → selective referral → re-measurement.
+## 4) Core definitions
 
-## 4) Layer 0: screening and baseline
+- **Visual load:** sustained demand placed on the visual system by screens, near-focus work, meetings, multi-monitor setups, lighting, airflow and cognitive intensity.
+- **Visual friction:** preventable loss of ease, stability or endurance while reading, focusing, reviewing, coding, designing or communicating through screens.
+- **Visual presenteeism:** productivity loss while the person remains present and working, often through rereading, slower review, discomfort, avoidance, unscheduled breaks or rework.
+- **Operational pattern:** an aggregate signal by role, team, location, work mode or time period.
+- **Clinical case:** an individual health situation requiring licensed assessment.
 
-Use one validated symptom instrument for the full cycle (examples: CVS-Q, DEQ-5, OSDI, SPEED).
+The protocol is built around one boundary: operational patterns belong to the organization; individual diagnosis belongs to clinicians.
+
+## 5) Minimum viable OVPP package
+
+A serious OVPP pilot needs these artifacts before launch:
+
+- purpose statement in plain language,
+- selected screening instrument and fixed measurement dates,
+- role and exposure group definitions,
+- environment checklist,
+- pause and workflow playbook,
+- referral criteria and urgent escalation rules,
+- data minimization and access policy,
+- dashboard template,
+- ROI assumption sheet,
+- day-90 decision memo template.
+
+If any of these is missing, the pilot can still start as a learning exercise, but it should not be sold internally as a governed program.
+
+## 6) Operating model and roles
+
+| Role | Owns | Must not do |
+|---|---|---|
+| Executive sponsor | budget, priority, scale decision | request individual health data |
+| Program owner | timeline, communications, adoption, operating rhythm | diagnose or pressure participation |
+| Data steward | aggregation, retention, access controls, dashboard hygiene | expose identifiable symptom records |
+| Facilities/IT | workstation, lighting, airflow, tools, reminders | infer health status from tool data |
+| Occupational health | risk pathway, escalation, policy alignment | replace ophthalmologic diagnosis |
+| Licensed eye-care partner | diagnosis, treatment, clinical guidance | share details without consent |
+| Team leaders | protect pauses, normalize participation, remove workflow blockers | rank people by symptoms or adherence |
+
+Boundary rule: managers and HR operate Layers 0-3; occupational health and licensed eye care handle Layer 4+.
+
+## 7) The OVPP workflow
+
+### Phase 0 - Sponsor agreement
+
+Define the target group, owner, budget, dates, privacy boundary and success criteria.
+
+Required outputs:
+
+- pilot charter,
+- risk tier,
+- named program owner,
+- written non-use rule for performance evaluation,
+- day-90 scale/adapt/pause decision date.
+
+### Layer 0 - Anonymous screening baseline
+
+Use one validated symptom instrument for the full cycle. Examples include CVS-Q, DEQ-5, OSDI or SPEED. Select based on the pilot question and local clinical preference.
 
 Operational rules:
 
-- Use fixed timing: baseline (D+0), midline (optional D+60), final (D+90), then quarterly/semester repeats.
-- Keep question sets unchanged throughout one pilot.
-- Do not mix instruments mid-program unless a full restart is approved.
-- Record only aggregate identifiers: area, role group, seniority band (optional), work modality (home/office/hybrid).
+- baseline at D+0,
+- optional midline at D+45 or D+60,
+- final re-measurement at D+90,
+- same questions and scoring approach throughout the cycle,
+- collect only aggregate identifiers such as role group, area, work mode and broad exposure category.
 
-Output:
+Outputs:
 
-- Baseline symptom prevalence by role cluster.
-- Baseline symptom intensity category (mild/moderate/severe).
+- baseline symptom prevalence by role cluster,
+- symptom intensity distribution,
+- response rate,
+- confidence and limitations note.
 
-## 5) Layer 1: risk mapping by role
+### Layer 1 - Visual load and risk map
 
-Stratify by function and exposure:
+Map symptoms against exposure without creating individual heat maps.
 
-- coding/review,
-- QA,
-- design,
-- support/video-heavy,
-- finance/analysis,
-- mixed-screen roles.
+Recommended dimensions:
 
-Combine:
+- role or function,
+- screen hours and meeting load,
+- deep-focus blocks,
+- multi-monitor or laptop-only work,
+- home/office/hybrid setup,
+- environmental constraints,
+- high-precision visual tasks such as QA, review, analysis or design.
 
-- symptom scores,
-- hours at screen and call load,
-- number of monitors,
-- baseline posture/environment score.
+Outputs:
 
-Output:
+- role-level visual load heat map,
+- priority cohort decision,
+- list of environment and workflow hypotheses,
+- referral watchlist handled only by the appropriate health pathway.
 
-- role-level heat map of visual load,
-- list of priority cohorts for intervention,
-- no individual-level heat maps.
+### Layer 2 - Environment standardization
 
-## 6) Layer 2: environment standardization checklist
+Apply the minimum workstation and environment checklist:
 
-Apply this to every workstation and remote setup (with equivalent home-office validation):
+- viewing distance around 50-70 cm,
+- top of monitor at or slightly below eye level,
+- neutral gaze downward around 15-20 degrees,
+- monitor centered to natural line of sight,
+- glare and reflection reduction,
+- task-specific font, zoom, contrast and brightness check,
+- humidity target around 40-60% where controllable,
+- indoor temperature around 21-23 degrees Celsius where controllable,
+- airflow redirected away from the face,
+- home-office self-check equivalent.
 
-- viewing distance: 50–70 cm,
-- top of monitor at or slightly below eye level (neutral gaze downward 15–20°),
-- anti-glare and matte surfaces,
-- monitor centered to natural line of sight;
-- avoid direct screen-facing bright windows and bright side reflections,
-- humidity target 40–60%,
-- indoor temperature ~21–23 °C,
-- airflow redirected away from the eyes,
-- font/contrast/brightness checked at task-specific zoom,
-- software reminders and screen layout simplified.
+Investment rule:
 
-Critical spend note:
+- do not prioritize blue-light filters as the main preventive investment unless a new validated evidence package justifies it.
 
-- **Do not prioritize blue-light filters as a preventive investment** unless a new validated evidence package is published.
+### Layer 3 - Pauses as infrastructure
 
-## 7) Layer 3: pauses as infrastructure
+Treat visual recovery as workflow design, not willpower.
 
-Treat visual recovery as always-on infrastructure:
+Recommended cadence:
 
-- implement prompts integrated to workflow tools (calendar/IDE/meeting tools),
-- align pause timing to existing cadences (for example sprint blocks, review cycles, meeting cadence),
-- set default pause windows where possible.
+- every 20 minutes: 20 seconds of distance gaze and blinking reset,
+- every 90 minutes: 5-10 minutes with reduced near-focus demand,
+- long meetings: one no-screen or away-from-screen segment when possible,
+- high-precision work: protected breaks before extended review, QA, analysis or decision blocks.
 
-Recommended operating cadence:
+Implementation options:
 
-- every 20 minutes: 20 seconds gaze-reset,
-- every 90 minutes: 5–10 minutes break with reduced near-focus demand,
-- at least one no-screen segment in long meetings when possible.
+- calendar defaults,
+- IDE or browser reminders,
+- Slack/Teams prompts,
+- meeting templates,
+- team-level rituals,
+- offline reminder tools that do not track productivity.
 
-Evidence principle: instructions work only when prompts are present and sustained.
+Success is not "people were told to pause". Success is sustained prompt presence, adoption and symptom re-measurement.
 
-## 8) Layer 4: referral protocol
+### Layer 4 - Selective referral pathway
 
-Apply this section only after layers 0–3 and exposure corrections.
+Apply after Layers 0-3, except for urgent signs.
 
-### 8.1 Initial triage buckets
+Risk buckets:
 
-- **Low risk**
-  - mild, infrequent symptoms,
-  - no functional impact,
-  - short response to basic pauses.
+| Bucket | Pattern | Action |
+|---|---|---|
+| Low | mild, infrequent symptoms; no functional impact | education, environment checklist, future screening |
+| Moderate | weekly recurrent symptoms; functional impact; association with screen/environment exposure | environment correction, structured pauses, re-check in 60-90 days |
+| High | persistent symptoms, recurrent blur, strong discomfort, contact lens worsening, frequent unsupervised drop use | occupational health pathway and licensed eye-care referral |
 
-- **Moderate risk**
-  - recurrent weekly symptoms,
-  - visible functional impact,
-  - plausible association with screen/environment exposure.
-
-- **High risk**
-  - persistent symptoms,
-  - recurrent blur or strong discomfort,
-  - pain, photophobia, persistent redness, recurrent unsupervised drop use,
-  - symptomatic contact lens users.
-
-### 8.2 Immediate referral criteria
-
-Escalate immediately to occupational health + eye-care pathway when any of the following appears:
+Immediate escalation criteria:
 
 - severe ocular pain,
 - significant vision change,
 - marked unilateral symptoms,
 - heavy discharge,
-- suspected infection/inflammation,
+- suspected infection or inflammation,
 - trauma,
 - sudden severe photophobia,
-- worsening in a contact lens wearer.
+- worsening symptoms in a contact lens wearer.
 
-### 8.3 Referral handoff package
-
-With informed consent, provide:
+Referral handoff, with informed consent:
 
 - role and exposure pattern,
 - estimated screen hours and call load,
@@ -168,77 +232,112 @@ With informed consent, provide:
 - screening score bucket and symptom pattern,
 - environmental interventions already completed.
 
-## 9) Layer 5: governance and dashboard
+### Layer 5 - Re-measurement and governance review
 
-Minimum indicator stack (all aggregated):
+At D+90, compare baseline and final measurements using the same instrument and the same aggregation logic.
+
+Minimum dashboard:
 
 | Indicator | Source | Cadence |
 |---|---|---|
-| Symptom prevalence | screening instrument | semiannual |
-| Symptom intensity by level | screening instrument | quarterly |
-| Exposure load | IT/self-report | quarterly |
-| Environmental correction status | facilities checklist | monthly |
-| Pause adherence | software data/self-report | monthly |
-| Campaign participation | platform logs | monthly |
-| Perceived productivity and quality signals | short internal survey | quarterly |
+| Participation rate | screening platform | baseline and final |
+| Symptom prevalence | screening instrument | baseline, D+90, semiannual |
+| Symptom intensity | screening instrument | baseline, D+90, quarterly if scaled |
+| Exposure load | self-report/IT-safe aggregate | quarterly |
+| Environment correction status | checklist | monthly |
+| Pause adoption | self-report or non-invasive tool signal | monthly |
+| Referral volume by bucket | occupational health aggregate | quarterly |
+| Perceived focus and quality | short internal survey | quarterly |
 
-Three rhythms are mandatory:
+Day-90 decision options:
 
-- **monthly:** environment and pause adherence,
-- **quarterly:** exposure and symptom intensity,
-- **semiannual:** prevalence and strategy review.
+- **Scale:** measurable improvement, acceptable adoption, no privacy concerns and sponsor approval.
+- **Adapt:** plausible signal but weak adherence, incomplete environment fixes or measurement limitations.
+- **Pause:** no signal, poor trust, inadequate ownership or unresolved privacy/legal issue.
 
-## 10) 90-day pilot blueprint
+## 8) ROI and anti-overclaim model
 
-| Week | Milestone |
-|---|---|
-| 1–2 | baseline screening + current-state map |
-| 2–3 | risk map + priority area decision |
-| 3–6 | environment actions (standardization) |
-| 4–12 | pause and communication playbook |
-| 6–12 | selective referral workflow |
-| 12–13 | re-measurement + board review |
+Use scenario modeling only.
 
-Exit criteria:
+Base formulas:
 
-- at least one measurable improvement signal in adherence or symptoms, or a clear documented reason if null,
-- documented decision to scale, adapt, or pause.
+- **Cost of inaction** = `N x loaded_cost_per_person x prevalence x productivity_loss`
+- **Recovered benefit** = `cost_of_inaction x recoverable_fraction`
+- **Net scenario value** = `recovered_benefit - program_cost`
 
-## 11) ROI and anti-overclaim policy
+Scenario bands:
 
-Use a scenario model:
+- conservative,
+- base,
+- high-risk.
 
-- **Cost of inaction** = `N × loaded_cost_per_person × prevalence × productivity_loss`
-- **Recovered benefit** = `cost_of_inaction × recoverable_fraction`
+Rules:
 
-Scenario bands (for internal simulation only):
+- store assumptions with every calculation,
+- separate prevalence, productivity loss and recoverable fraction,
+- never claim all productivity loss is caused by visual fatigue,
+- never claim referral recovers all losses,
+- present sensitivity ranges instead of one number.
 
-- conservative / base / high-risk bands,
-- explicit assumptions stored with every calculation,
-- never present one deterministic return.
+## 9) Privacy and ethics
 
-Never claim that all measured productivity loss is caused by visual fatigue or that referral actions recover all losses.
+Required safeguards:
 
-## 12) Privacy, ethics, and legal posture
+- aggregate reports only,
+- no individual results returned to managers,
+- no mandatory participation,
+- no diagnosis by non-clinical staff,
+- health data separated from performance records,
+- referral handled through consented health channels,
+- clear retention policy,
+- plain-language participant notice.
 
-- Aggregate reports only; no individual results returned to managers.
-- No mandatory participation.
-- No diagnosis by non-clinical staff.
-- Keep referral handling separate from performance records.
-- Provide the purpose statement to participants in plain language.
+Minimum participant promise:
 
-**Data minimization:** only what is necessary for the program decision.
+> This program measures aggregate visual load and workplace friction. It is not a performance evaluation, and individual symptom answers will not be shared with managers.
 
-## 13) Ready-to-run checklist
+## 10) Product packaging as a companion to the book
 
-- [ ] Choose one screening instrument and lock it.
-- [ ] Define role groups and target area.
-- [ ] Publish the non-negotiables to leadership and participants.
-- [ ] Run baseline and publish role-level heat map.
-- [ ] Roll environment and pause layers together.
-- [ ] Activate referral criteria with explicit immediate escalation rules.
-- [ ] Run re-measurement and close pilot by evidence.
+Recommended product ladder:
+
+1. **Book:** creates awareness and executive urgency.
+2. **Open OVPP:** gives leaders a transparent protocol they can inspect and trust.
+3. **Executive review kit:** turns the book thesis into a decision memo.
+4. **90-day pilot:** applies OVPP in one high-exposure team.
+5. **Dashboard and board review:** converts the pilot into scale/adapt/pause evidence.
+6. **Clinical partner pathway:** supports cases that require licensed care.
+7. **Annual governance loop:** keeps measurement, environment and referral current.
+
+The open protocol should remain usable without buying anything. That openness increases trust and makes paid implementation, clinical partnership or advisory work easier to justify.
+
+## 11) Definition of Done for a high-quality OVPP pilot
+
+A pilot is complete only when all are true:
+
+- one instrument was used consistently,
+- baseline and final data were collected,
+- role-level risk map was produced without individual exposure,
+- environment layer was actually executed,
+- pause infrastructure was deployed beyond a one-time message,
+- referral criteria were active before symptoms were solicited,
+- urgent signs had a defined escalation route,
+- ROI was modeled as scenarios,
+- a day-90 decision memo was written,
+- at least one improvement, limitation or failed assumption was documented.
+
+## 12) Ready-to-run checklist
+
+- [ ] Choose one screening instrument and lock it for the cycle.
+- [ ] Define role groups, target cohort and pilot owner.
+- [ ] Publish the privacy and non-use promises.
+- [ ] Run baseline and generate an aggregate heat map.
+- [ ] Execute environment standardization.
+- [ ] Deploy pause infrastructure.
+- [ ] Activate referral criteria and urgent escalation rules.
+- [ ] Re-measure at D+90.
+- [ ] Produce a scale/adapt/pause decision memo.
+- [ ] Record lessons for the next cycle.
 
 ## Final note
 
-This version is open and intentionally conservative. Translate thresholds to local legal and clinical requirements, but keep the sequence and ethics unchanged.
+OVPP is open and intentionally conservative. Translate thresholds to local legal and clinical requirements, but preserve the sequence, privacy boundary and anti-overclaim posture. That is what makes it a credible companion to the book rather than a wellness campaign with better branding.
