@@ -1,6 +1,6 @@
 # Protocolo Aberto de Desempenho Visual (OVPP)
 
-**Versão 2.0 - release de produto complementar.**
+**Versão 2.1 — compatível com o contrato de alegações do livro v2.9.13.**
 
 Protocolo operacional aberto que transforma o argumento do livro *O Custo Invisível do Olho Seco* em um piloto corporativo de 90 dias, mensurável, conservador e centrado em privacidade para equipes intensivas em tela.
 
@@ -15,7 +15,7 @@ O OVPP é a camada aberta de implementação ao lado do livro.
 | Explica por que olho seco e fadiga visual digital importam para produtividade | Define como uma organização pode medir e agir sem virar consultório |
 | Constrói o caso executivo em torno de presenteismo, retrabalho, instabilidade visual e carga de tela | Converte o caso em fases, papéis, indicadores, checklists e critérios de decisão |
 | Convence lideranças a aprovar a medição | Entrega um caminho pratico para rodar o primeiro piloto de 90 dias |
-| Evita inflar retorno financeiro | Exige cenários, premissas explícitas e reavaliação antes de escalar |
+| Evita inflar retorno financeiro | Separa capacidade, custo cotado e benefício observado antes de qualquer ROI retrospectivo |
 
 O OVPP não substitui o livro. Ele é o companheiro operacional da obra: um protocolo reutilizável que leitores, empresas, clínicas e times de Pessoas podem adotar depois de aceitar a tese central.
 
@@ -28,7 +28,7 @@ O OVPP é para organizações que querem:
 - transformar sintomas dispersos em indicadores agregados,
 - proteger privacidade e confiança,
 - definir caminho seguro de encaminhamento clínico para quem precisa,
-- testar o business case com evidência local antes de escalar.
+- testar viabilidade e qualidade da medição antes de avançar para confirmação.
 
 Este protocolo **não** substitui a prática oftalmológica, **não** diagnostica colaboradores e **não** autoriza gestores a acessar informação médica individual.
 
@@ -39,7 +39,7 @@ Usuários primários:
 - lideranças de Pessoas/RH que precisam de um programa seguro,
 - equipes de saúde ocupacional que precisam de fluxo estruturado,
 - lideranças de operação com times de alta exposição a tela,
-- CFOs que exigem modelo conservador de ROI,
+- CFOs que exigem custo cotado, limiar de cobertura e evidência atribuível,
 - facilities e TI responsáveis por ambiente e ferramentas,
 - oftalmologistas ou clínicas que apoiam casos encaminhados.
 
@@ -52,17 +52,17 @@ Melhores primeiros times:
 - design, conteúdo e pesquisa,
 - qualquer equipe híbrida com longa exposição a tela e ergonomia irregular.
 
-A melhor primeira adoção não é "bem-estar para toda a empresa". É um piloto delimitado em um grupo de alta exposição, com dono nominal, métricas fixas e decisão de escala no dia 90.
+A melhor primeira adoção não é "bem-estar para toda a empresa". É um piloto delimitado em um grupo de alta exposição, com dono nominal, métricas fixas e decisão de encerrar, ajustar ou avançar para confirmação no dia 90.
 
 ## 3) Princípios inegociáveis
 
 1. **Medir padrões, não pessoas.** Análises rotineiras são agregadas por time, função ou grupo de exposição.
 2. **Tese do livro, disciplina do protocolo.** O livro cria urgência; o protocolo exige execução mensurável.
-3. **Camadas universais de baixo risco primeiro.** Ambiente, fluxo e desenho de pausas precedem encaminhamento clínico.
+3. **Camadas organizacionais não atrasam cuidado.** Ambiente, fluxo e pausas podem começar cedo; gravidade, recorrência, impacto funcional, lentes de contato, preferência ou sinais de alerta acionam a via clínica em paralelo.
 4. **Um instrumento por ciclo.** Manter o mesmo questionário validado entre linha de base e reavaliação.
-5. **Sem diagnóstico por não clínicos.** Gestores, RH e dashboards classificam risco operacional, não doença.
+5. **Sem diagnóstico por não clínicos.** Gestores, RH e dashboards descrevem exposição e prioridades operacionais, não doença nem risco clínico individual.
 6. **Participação voluntária.** Participação não é critério de performance.
-7. **Economia conservadora.** Usar cenários, premissas explícitas e evitar ROI determinístico.
+7. **Economia auditável.** Antes da ação, usar capacidade e limiar de cobertura; ROI somente retrospectivo, com benefício incremental e atribuível.
 8. **Governança visível.** Todo piloto tem patrocinador, dono, responsável de dados, fronteira clínica e decisão de saída.
 
 ## 4) Definições centrais
@@ -87,7 +87,7 @@ Um piloto sério precisa destes artefatos antes do lançamento:
 - critérios de encaminhamento e regras de urgência,
 - política de minimização de dados e acesso,
 - template de dashboard,
-- planilha de premissas de ROI,
+- BOM cotado e planilha de capacidade/limiar,
 - modelo de memorando de decisão no dia 90.
 
 Se algum item faltar, o piloto ainda pode começar como aprendizado, mas não deve ser vendido internamente como programa governado.
@@ -96,7 +96,7 @@ Se algum item faltar, o piloto ainda pode começar como aprendizado, mas não de
 
 | Papel | Responsabilidade | Não deve fazer |
 |---|---|---|
-| Patrocinador executivo | orçamento, prioridade, decisão de escala | pedir dados individuais de saúde |
+| Patrocinador executivo | orçamento, prioridade, decisão de progressão | pedir dados individuais de saúde |
 | Dono do programa | cronograma, comunicação, adoção, ritmo operacional | diagnosticar ou pressionar participação |
 | Responsável de dados | agregação, retenção, acesso e higiene do dashboard | expor respostas identificáveis |
 | Facilities/TI | estação, luz, fluxo de ar, ferramentas e lembretes | inferir saúde a partir de dados de ferramenta |
@@ -104,7 +104,7 @@ Se algum item faltar, o piloto ainda pode começar como aprendizado, mas não de
 | Parceiro oftalmológico | diagnóstico, tratamento e orientação clínica | compartilhar detalhes sem consentimento |
 | Lideranças de time | proteger pausas, normalizar adesão, remover bloqueios | ranquear pessoas por sintomas ou aderência |
 
-Regra de fronteira: gestores e RH operam camadas 0-3; saúde ocupacional e cuidado oftalmológico licenciado operam camada 4+.
+Regra de fronteira: gestores e RH operam medidas organizacionais e agregados; saúde ocupacional e cuidado oftalmológico licenciado recebem encaminhamentos em paralelo sempre que os critérios clínicos forem acionados.
 
 ## 7) Fluxo OVPP
 
@@ -118,11 +118,11 @@ Saídas obrigatórias:
 - nível de risco,
 - dono nominal do programa,
 - regra escrita de não uso para avaliação de performance,
-- data da decisão escalar/adaptar/pausar no dia 90.
+- data da decisão encerrar/ajustar/avançar para confirmação no dia 90.
 
 ### Camada 0 - Linha de base anônima
 
-Usar um instrumento validado para todo o ciclo. Exemplos: CVS-Q, DEQ-5, OSDI ou SPEED. A escolha depende da pergunta do piloto e da preferência clínica local.
+Usar um instrumento apropriado para todo o ciclo. A escolha exige versão identificada, validação para idioma, população e finalidade, licença e interpretação clínica local documentadas; citar um instrumento não autoriza seu uso.
 
 Regras operacionais:
 
@@ -134,12 +134,12 @@ Regras operacionais:
 
 Saídas:
 
-- prevalência inicial por grupo de função,
+- distribuição inicial de sintomas por grupo de função,
 - distribuição de intensidade dos sintomas,
 - taxa de resposta,
 - nota de confiança e limitações.
 
-### Camada 1 - Mapa de carga visual e risco
+### Camada 1 - Mapa de carga visual e prioridade operacional
 
 Cruzar sintomas e exposição sem criar mapas individuais.
 
@@ -164,14 +164,14 @@ Saídas:
 
 Aplicar checklist mínimo:
 
-- distância de tela em torno de 50-70 cm,
+- distância de tela em torno de 40-70 cm,
 - borda superior do monitor no nível dos olhos ou ligeiramente abaixo,
 - olhar neutro levemente para baixo, em torno de 15-20 graus,
 - monitor alinhado ao eixo natural de visão,
 - redução de reflexo e brilho,
 - fonte, zoom, contraste e brilho ajustados a tarefa,
 - umidade alvo de 40-60% onde controlável,
-- temperatura em torno de 21-23 graus Celsius onde controlável,
+- temperatura em torno de 22-24 graus Celsius onde controlável,
 - fluxo de ar afastado do rosto,
 - equivalente de autocheck para home office.
 
@@ -203,7 +203,7 @@ Sucesso não é "as pessoas foram avisadas para pausar". Sucesso é presença su
 
 ### Camada 4 - Encaminhamento seletivo
 
-Aplicar depois das camadas 0-3, exceto em sinais de urgência.
+Manter disponível desde o início e acionar em paralelo por gravidade, recorrência, impacto funcional, lentes de contato, preferência, julgamento da saúde ocupacional ou sinais de alerta. Medidas ambientais não são pré-requisito para cuidado.
 
 | Grupo | Padrão | Ação |
 |---|---|---|
@@ -239,7 +239,7 @@ Dashboard mínimo:
 | Indicador | Fonte | Cadência |
 |---|---|---|
 | Participação | plataforma de triagem | linha de base e final |
-| Prevalência de sintomas | instrumento de triagem | linha de base, D+90, semestral |
+| Distribuição de sintomas | instrumento de triagem | linha de base, D+90, semestral |
 | Intensidade de sintomas | instrumento de triagem | linha de base, D+90, trimestral se escalar |
 | Carga de exposição | autodeclaração/agregado seguro de TI | trimestral |
 | Correção ambiental | checklist | mensal |
@@ -249,33 +249,18 @@ Dashboard mínimo:
 
 Decisões no dia 90:
 
-- **Escalar:** melhora mensurável, adesão aceitável, sem problema de privacidade e patrocínio ativo.
-- **Adaptar:** sinal plausível, mas baixa adesão, correções incompletas ou limitações de medição.
-- **Pausar:** ausência de sinal, baixa confiança, governança fraca ou pendência legal/privacidade.
+- **Avançar para confirmação:** viabilidade adequada, dados utilizáveis, segurança e governança preservadas; efeito ainda não confirmado.
+- **Ajustar:** sinal exploratório ou execução incompleta, com limitações corrigíveis.
+- **Encerrar:** ausência de viabilidade, baixa confiança, risco, governança fraca ou hipótese sem apoio local.
 
-## 8) ROI e política anti-hipérbole
+## 8) Capacidade, limiar e ROI retrospectivo
 
-Usar apenas modelo por cenários.
+Antes da intervenção, use apenas:
 
-Fórmulas-base:
+- **Capacidade equivalente** = `N × custo_direto_no_horizonte × fração_sintomática × limitação_percebida`;
+- **Limiar de cobertura** = `custo_cotado_no_horizonte ÷ capacidade_equivalente`.
 
-- **Custo da inação** = `N x custo_total_por_pessoa x prevalência x perda_produtividade`
-- **Benefício recuperado** = `custo_da_inação x fração_recuperável`
-- **Valor líquido do cenário** = `beneficio_recuperado - custo_do_programa`
-
-Faixas:
-
-- conservadora,
-- base,
-- risco alto.
-
-Regras:
-
-- guardar premissas com todo cálculo,
-- separar prevalência, perda produtiva e fração recuperável,
-- nunca afirmar que toda perda produtiva é causada por fadiga visual,
-- nunca afirmar que encaminhamento recupera todas as perdas,
-- apresentar sensibilidade, não um número único.
+Capacidade não é caixa e limiar não é probabilidade de retorno. Registre fonte, data, responsável e natureza de cada premissa. ROI permanece indisponível até existir benefício financeiro incremental, atribuível e auditável e custo efetivo no mesmo horizonte. Sintomas não são convertidos diretamente em reais.
 
 ## 9) Privacidade e ética
 
@@ -302,7 +287,7 @@ Escada recomendada:
 2. **OVPP aberto:** oferece um protocolo transparente e confiável.
 3. **Kit de revisão executiva:** transforma a tese em memorando de decisão.
 4. **Piloto de 90 dias:** aplica o OVPP em uma equipe de alta exposição.
-5. **Dashboard e revisão executiva:** converte piloto em evidência para escalar, adaptar ou pausar.
+5. **Dashboard e revisão executiva:** sustenta a decisão de encerrar, ajustar ou avançar para confirmação.
 6. **Trilha clínica parceira:** apoia casos que exigem cuidado licenciado.
 7. **Ciclo anual de governança:** mantém medição, ambiente e encaminhamento atualizados.
 
@@ -314,12 +299,12 @@ Um piloto só está completo quando:
 
 - um instrumento foi usado de forma consistente,
 - linha de base e medição final foram coletadas,
-- mapa de risco por função foi produzido sem exposição individual,
+- mapa de exposição e prioridade operacional foi produzido sem exposição individual,
 - camada ambiental foi realmente executada,
 - pausas foram implantadas além de uma mensagem única,
 - critérios de encaminhamento estavam ativos antes da coleta de sintomas,
 - sinais de urgência tinham rota definida,
-- ROI foi modelado por cenários,
+- capacidade e limiar foram documentados sem apresentar ROI prospectivo,
 - memorando de decisão de D+90 foi escrito,
 - pelo menos uma melhoria, limitação ou premissa falha foi documentada.
 
@@ -333,7 +318,7 @@ Um piloto só está completo quando:
 - [ ] Implantar infraestrutura de pausas.
 - [ ] Ativar critérios de encaminhamento e urgência.
 - [ ] Reavaliar em D+90.
-- [ ] Produzir memorando escalar/adaptar/pausar.
+- [ ] Produzir memorando encerrar/ajustar/avançar para confirmação.
 - [ ] Registrar aprendizados para o próximo ciclo.
 
 ## Fechamento

@@ -1,0 +1,39 @@
+name: Publish OVPP execution kit
+
+on:
+  push:
+    tags:
+      - 'kit-v*'
+
+permissions:
+  contents: write
+
+jobs:
+  package-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out tagged kit
+        uses: actions/checkout@v4
+
+      - name: Package matching version
+        id: package
+        shell: bash
+        run: |
+          set -euo pipefail
+          version="${GITHUB_REF_NAME#kit-v}"
+          source="kit/kit-execucao-v${version}"
+          test -d "$source"
+          archive="kit-execucao-olho-seco.zip"
+          (cd kit && zip -qr "../$archive" "kit-execucao-v${version}")
+          sha256sum "$archive" > SHA256SUMS.txt
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+
+      - name: Publish GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: Kit de Execução v${{ steps.package.outputs.version }}
+          generate_release_notes: true
+          make_latest: true
+          files: |
+            kit-execucao-olho-seco.zip
+            SHA256SUMS.txt
