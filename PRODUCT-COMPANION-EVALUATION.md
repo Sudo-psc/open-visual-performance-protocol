@@ -24,3 +24,5 @@ OVPP is a protocol template, not evidence of efficacy. Legal, privacy, clinical 
 ## Compatibility decision
 
 Version 2.1 supersedes the former scenario-ROI and scale-at-D+90 language. Any older copy containing “conservative ROI”, recoverable fraction, risk map based on symptoms or a mandatory sequence before referral is incompatible and must not be deployed.
+
+Version 2.2 brings the English protocol into full structural parity with the Portuguese (PT-BR) release — same 13 sections, same tables, same rules — plus a wording clarity pass on both languages. No release gate, threshold, or non-negotiable rule changed.
