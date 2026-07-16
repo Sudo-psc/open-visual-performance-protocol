@@ -1,6 +1,6 @@
 # Protocolo Aberto de Desempenho Visual (OVPP)
 
-**Versão 2.1 — compatível com o contrato de alegações do livro v2.9.13.**
+**Versão 2.2 — compatível com o contrato de alegações do livro v2.9.13.**
 
 Protocolo operacional aberto que transforma o argumento do livro *O Custo Invisível do Olho Seco* em um piloto corporativo de 90 dias, mensurável, conservador e centrado em privacidade para equipes intensivas em tela.
 
@@ -257,10 +257,10 @@ Decisões no dia 90:
 
 Antes da intervenção, use apenas:
 
-- **Capacidade equivalente** = `N × custo_direto_no_horizonte × fração_sintomática × limitação_percebida`;
-- **Limiar de cobertura** = `custo_cotado_no_horizonte ÷ capacidade_equivalente`.
+- **Capacidade equivalente** — multiplique o efetivo de pessoas (`N`) pelo custo do trabalho direto no horizonte, depois pela fração sintomática, depois pelo fator de limitação percebida: `N × custo_direto_no_horizonte × fração_sintomática × limitação_percebida`.
+- **Limiar de cobertura** — divida o custo cotado no mesmo horizonte pela capacidade equivalente: `custo_cotado_no_horizonte ÷ capacidade_equivalente`.
 
-Capacidade não é caixa e limiar não é probabilidade de retorno. Registre fonte, data, responsável e natureza de cada premissa. ROI permanece indisponível até existir benefício financeiro incremental, atribuível e auditável e custo efetivo no mesmo horizonte. Sintomas não são convertidos diretamente em reais.
+Capacidade equivalente não é caixa, e o limiar não é probabilidade de retorno. Registre fonte, data, responsável e natureza de cada premissa. ROI permanece indisponível até existir benefício financeiro incremental, atribuível e auditável, junto com custo efetivo, no mesmo horizonte. Nunca converta um escore de sintomas diretamente em reais.
 
 ## 9) Privacidade e ética
 
